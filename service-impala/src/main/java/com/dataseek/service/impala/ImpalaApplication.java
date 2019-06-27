@@ -7,6 +7,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 public class ImpalaApplication {
+
+
     public static void main(String[] args) {
         SpringApplication.run(ImpalaApplication.class, args);
     }

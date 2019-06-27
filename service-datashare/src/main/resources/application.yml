@@ -2,8 +2,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8780/eureka/
-  instance:
-     hostname: datashare1
 server:
   port: 8790
 spring:

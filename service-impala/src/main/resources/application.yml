@@ -2,8 +2,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8780/eureka/
-  instance:
-     hostname: impala1
 server:
   port: 8791
 spring:

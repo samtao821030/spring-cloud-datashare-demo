@@ -6,6 +6,7 @@ eureka:
     fetch-registry: false
 server:
   port: 8780
+  enable-self-preservation: false
 spring:
   application:
     name: spting-cloud-eureka-server

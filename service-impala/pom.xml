@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>service-datashare</artifactId>
+    <artifactId>service-impala</artifactId>
 
     <dependencyManagement>
         <dependencies>
@@ -51,7 +51,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.dataseek.service.datashare.DataShareApplication</mainClass>
+                    <mainClass>com.dataseek.service.impala.ImpalaApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

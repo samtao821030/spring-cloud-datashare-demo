@@ -1,12 +1,21 @@
 package com.dataseek.service.impala.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.alibaba.fastjson.JSONObject;
+import com.dataseek.service.impala.service.ITestService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
+@CrossOrigin
+@RequestMapping("/impala")
 public class TestController {
-    @RequestMapping("/impala/test")
-    public String test(){
-        return "这是Impala Test";
+    @Autowired
+    private ITestService testService;
+
+    @RequestMapping(value="/people_list",method = RequestMethod.GET)
+    public List<JSONObject> test(@RequestParam Integer page_no, @RequestParam Integer page_num){
+        return testService.queryPeopleList(page_no,page_num);
     }
 }

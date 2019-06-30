@@ -7,3 +7,7 @@ server:
 spring:
   application:
     name: impala
+impala:
+  impala_host: quickstart.cloudera
+  impala_port: 21050
+  impala_username: hive

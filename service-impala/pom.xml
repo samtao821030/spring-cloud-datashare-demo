@@ -16,7 +16,7 @@
         <hive-jdbc.version>1.1.0</hive-jdbc.version>
         <hive-metastore.version>1.1.0</hive-metastore.version>
         <hive-service.version>1.1.0</hive-service.version>
-        <hadoop-common.version>2.6.0</hadoop-common.version>
+        <hadoop-common.version>3.2.4</hadoop-common.version>
         <spring-boot-starter-jdbc.version>1.4.1.RELEASE</spring-boot-starter-jdbc.version>
     </properties>
 
